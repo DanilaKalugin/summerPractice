@@ -31,7 +31,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"Login\": \"strin44g\",\r\n  \"NativeName\": \"strin44g\",\r\n  \"Password\": \"strin44g\",\r\n  \"ConfirmPassword\": \"strin44g\"\r\n}",
+					"raw": "{\r\n  \"Login\": \"strin555g\",\r\n  \"NativeName\": \"strin555g\",\r\n  \"Password\": \"strin555g\",\r\n  \"ConfirmPassword\": \"strin555g\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"

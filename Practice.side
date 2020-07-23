@@ -1,0 +1,741 @@
+{
+  "id": "27343f93-bd8c-44a4-96aa-69891edcf6a6",
+  "version": "2.0",
+  "name": "Practice",
+  "url": "http://104.40.150.146/login?nextPath=%2F",
+  "tests": [{
+    "id": "6c0d54ca-e36d-4140-bf49-2cd3106655c2",
+    "name": "Create user",
+    "commands": [{
+      "id": "faefb52f-559f-4f32-b4ce-7dd729e86f0e",
+      "comment": "",
+      "command": "open",
+      "target": "http://104.40.150.146/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfb66e29-853a-4f86-9681-1d5ff00e3a1d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1934x2160",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d29d18eb-2d30-44f5-a0e0-9c2706e26093",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация здесь",
+      "targets": [
+        ["linkText=Регистрация здесь", "linkText"],
+        ["css=.col-md-12 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация здесь')]", "xpath:link"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[3]/form/div[4]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация здесь')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc4b4ca4-f552-46f5-9207-bd325071080e",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.input-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59e09dcd-e7e2-4550-8aed-37365c8d9281",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.input-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Test250"
+    }, {
+      "id": "6ea54c5f-61e7-4040-90e9-8cb97210e21b",
+      "comment": "",
+      "command": "click",
+      "target": "name=nativeName",
+      "targets": [
+        ["name=nativeName", "name"],
+        ["css=.input-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nativeName']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25c53b2e-147e-4637-b469-dd6429a02d2b",
+      "comment": "",
+      "command": "type",
+      "target": "name=nativeName",
+      "targets": [
+        ["name=nativeName", "name"],
+        ["css=.input-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='nativeName']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Test 250"
+    }, {
+      "id": "16ea300d-653d-4ec0-be9c-41d86a103364",
+      "comment": "",
+      "command": "click",
+      "target": "name=passwd",
+      "targets": [
+        ["name=passwd", "name"],
+        ["css=.input-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='passwd']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a1a2fdb-585f-47a9-916b-8e49d3a2cf06",
+      "comment": "",
+      "command": "type",
+      "target": "name=passwd",
+      "targets": [
+        ["name=passwd", "name"],
+        ["css=.input-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='passwd']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[2]/form/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "97e88068-cbb6-492e-a11a-5de903374654",
+      "comment": "",
+      "command": "click",
+      "target": "name=rpasswd",
+      "targets": [
+        ["name=rpasswd", "name"],
+        ["css=.input-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='rpasswd']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6686d1f-abec-48d8-86b8-ffb1ed6134fb",
+      "comment": "",
+      "command": "type",
+      "target": "name=rpasswd",
+      "targets": [
+        ["name=rpasswd", "name"],
+        ["css=.input-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='rpasswd']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[2]/form/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "912e8725-1223-4341-8f37-5f5191dc9183",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[2]/form/div[5]/div/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fc1dfaa-3501-4d9c-955c-ca2860825dfc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.alert",
+      "targets": [
+        ["css=.alert", "css:finder"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ae0a5ed7-98f8-44c0-acb2-477c5d249c74",
+    "name": "Log in",
+    "commands": [{
+      "id": "6fbe5100-9d68-42ca-a2bb-517e4ff9912f",
+      "comment": "",
+      "command": "open",
+      "target": "http://104.40.150.146/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8597bbc6-8e5f-4d7e-9c52-0085f6914bfa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1934x2160",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32ade562-aa5c-499f-b04b-ca1862873fd3",
+      "comment": "",
+      "command": "click",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.input-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45fd03d7-b6c4-4a36-920d-5316754d4685",
+      "comment": "",
+      "command": "type",
+      "target": "name=login",
+      "targets": [
+        ["name=login", "name"],
+        ["css=.input-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='login']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[3]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Test250"
+    }, {
+      "id": "4d2e56ea-8170-4692-9489-f78ac6da1410",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[3]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16e1520c-739a-4eb6-8f3a-ce0516690822",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.input-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[3]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456789"
+    }, {
+      "id": "ce620b14-362f-47db-ba5b-249177a3d8e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div[3]/form/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9128daf-a2b8-4b17-b706-4f8d1b79e5d9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='reactApp']/div/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Добро пожаловать в панель управления контентом.')]", "xpath:innerText"]
+      ],
+      "value": "Добро пожаловать в панель управления контентом"
+    }]
+  }, {
+    "id": "6e20113d-e0d0-49b3-89de-43cd4cc24600",
+    "name": "Go to maps section",
+    "commands": [{
+      "id": "548f2b9c-e810-4c19-a2eb-9a62276f1e35",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6cac49e-7669-4f98-9eb6-f8bb908ab5bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1934x2160",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98c384f7-76d8-4bfc-8c54-0917e9e1f338",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Карты",
+      "targets": [
+        ["linkText=Карты", "linkText"],
+        ["css=li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Карты')]", "xpath:link"],
+        ["xpath=//div[@id='bs-example-navbar-collapse-1']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/maps')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Карты')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20bbf6f3-66cc-4ffd-8ca6-6c6f2afd186c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//div[@id='reactApp']/div/div/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Добро пожаловать в панель управления картами.')]", "xpath:innerText"]
+      ],
+      "value": "Добро пожаловать в панель управления картами."
+    }]
+  }, {
+    "id": "d1709cb4-90cc-419e-a0b6-0af89111366f",
+    "name": "Upload new map",
+    "commands": [{
+      "id": "9f691994-c728-4f9a-a845-c2243a8b6f04",
+      "comment": "",
+      "command": "open",
+      "target": "http://104.40.150.146/maps",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68c8bfb3-8170-4cff-8ace-19a3e24f6681",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1905x2140",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50c66bb5-8465-4c1c-a11b-d4c343bbfe42",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Загрузить из файла",
+      "targets": [
+        ["linkText=Загрузить из файла", "linkText"],
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Загрузить из файла')]", "xpath:link"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/map/?upload=1')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Загрузить из файла')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff4bed8f-9c92-448f-acc5-391927427678",
+      "comment": "",
+      "command": "click",
+      "target": "name=fd-file",
+      "targets": [
+        ["name=fd-file", "name"],
+        ["css=.fd-file", "css:finder"],
+        ["xpath=//input[@name='fd-file']", "xpath:attributes"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div[2]/div/div/form/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32406352-669e-4886-bec6-a8605ef9d654",
+      "comment": "",
+      "command": "type",
+      "target": "name=fd-file",
+      "targets": [],
+      "value": "D:\\Практика\\456789.csv"
+    }, {
+      "id": "5498c3ae-0b3e-46e5-9a2e-662630759de8",
+      "comment": "",
+      "command": "assertValue",
+      "target": "xpath=//div/input",
+      "targets": [],
+      "value": "456789"
+    }]
+  }, {
+    "id": "2861b257-3299-4505-ba34-a3e313c1d906",
+    "name": "Delete map",
+    "commands": [{
+      "id": "db456e0d-fd77-4c58-8646-547806772c9c",
+      "comment": "",
+      "command": "open",
+      "target": "http://104.40.150.146/maps",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e98a7fe-fb8f-4d0c-b726-56fb32c6f833",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1905x2140",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3edc8920-9b76-421d-9cc4-9b0b0189dc49",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .glyphicon-trash",
+      "targets": [
+        ["css=tr:nth-child(3) .glyphicon-trash", "css:finder"],
+        ["xpath=//div[@id='reactApp']/div/div/div/table/tbody/tr[3]/td[5]/button/span", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[5]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5b4189e-e3d4-4a99-b9c7-9fb64d55d8e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-success",
+      "targets": [
+        ["css=.btn-success", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'ОК')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "442f1b83-a37f-4570-b584-11e300d21c9e",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=tr:nth-child(3) .glyphicon-trash",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2d29f829-bda2-4a09-a051-a15cd48c7eda",
+    "name": "Go to games section",
+    "commands": [{
+      "id": "301a22b1-71e0-4bd7-9e3c-de40ec5aa7b2",
+      "comment": "",
+      "command": "open",
+      "target": "http://104.40.150.146/maps",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77d05901-1d98-47b3-8f72-7ed940fbf59d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1905x2140",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6cdba10e-38d5-4a57-a536-bc43beab7738",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Управление",
+      "targets": [
+        ["linkText=Управление", "linkText"],
+        ["css=.nav:nth-child(1) > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Управление')]", "xpath:link"],
+        ["xpath=//div[@id='bs-example-navbar-collapse-1']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Управление')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9d13b28-7327-4d58-a790-4806fd8591b0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Перейти к списку игр",
+      "targets": [
+        ["linkText=Перейти к списку игр", "linkText"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//a[contains(text(),'Перейти к списку игр')]", "xpath:link"],
+        ["xpath=//div[@id='reactApp']/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/content/')]", "xpath:href"],
+        ["xpath=//div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Перейти к списку игр')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2544",
+      "windowTimeout": 20000
+    }, {
+      "id": "83308a29-5cbe-41a9-8b46-be401f74b5a2",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2544}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dae6d11f-ec1e-4295-bbb6-44058520639e",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//h1",
+      "targets": [],
+      "value": "ПОЛИЦЕЙСКИЕ И МОШЕННИКИ"
+    }]
+  }, {
+    "id": "3bc09c7c-8984-4779-918e-bb30c06f55a3",
+    "name": "Create New game",
+    "commands": [{
+      "id": "07acfd22-eae8-4e89-847f-72134b49d802",
+      "comment": "",
+      "command": "open",
+      "target": "http://104.40.150.146/content/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b35631ca-c632-47e0-8f39-69050426def2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1905x2140",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e92d706-bc43-4818-9575-8a12b1487445",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Создать Игру",
+      "targets": [
+        ["linkText=Создать Игру", "linkText"],
+        ["css=.idx-create-game-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Создать Игру')]", "xpath:link"],
+        ["xpath=//table[@id='gameList']/tbody/tr[3]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'newgame.html')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'Создать Игру')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b6b7511-9302-4e26-bb90-d1882d0556a3",
+      "comment": "",
+      "command": "click",
+      "target": "name=gname",
+      "targets": [
+        ["name=gname", "name"],
+        ["css=.new-game-control-group:nth-child(2) > .new-game-control", "css:finder"],
+        ["xpath=//input[@name='gname']", "xpath:attributes"],
+        ["xpath=//form[@id='new-game-form']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "419262d1-f92c-4a6d-b511-0763c47630d3",
+      "comment": "",
+      "command": "type",
+      "target": "name=gname",
+      "targets": [
+        ["name=gname", "name"],
+        ["css=.new-game-control-group:nth-child(2) > .new-game-control", "css:finder"],
+        ["xpath=//input[@name='gname']", "xpath:attributes"],
+        ["xpath=//form[@id='new-game-form']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1231232"
+    }, {
+      "id": "1a2a1d43-aa84-4499-b5d1-863c9a9af486",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-new-game",
+      "targets": [
+        ["id=btn-new-game", "id"],
+        ["css=#btn-new-game", "css:finder"],
+        ["xpath=//input[@id='btn-new-game']", "xpath:attributes"],
+        ["xpath=//form[@id='new-game-form']/fieldset/div[8]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b746e764-5d80-4dc2-b1f5-07162f6d45d5",
+      "comment": "",
+      "command": "assertText",
+      "target": "//*[@id=\"gameList\"]/tbody/tr[3]/td[1]/a",
+      "targets": [],
+      "value": "1231232"
+    }]
+  }, {
+    "id": "99c1c697-12c3-49fb-a9f1-f7484fbd6b58",
+    "name": "Create new test game",
+    "commands": [{
+      "id": "bddab90b-131a-4e0b-b6d8-c2b3d580ce44",
+      "comment": "",
+      "command": "open",
+      "target": "http://104.40.150.146/content/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "808a02ad-a929-452d-a1b9-61001d052043",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1905x2140",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "976da354-aa87-4791-bf36-152be2be3604",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Создать Игру",
+      "targets": [
+        ["linkText=Создать Игру", "linkText"],
+        ["css=.idx-create-game-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Создать Игру')]", "xpath:link"],
+        ["xpath=//table[@id='gameList']/tbody/tr[4]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'newgame.html')]", "xpath:href"],
+        ["xpath=//tr[4]/td/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Создать Игру')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c47061b-8c28-4d66-b8ff-11f05a3c1ea2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.new-game-control-group:nth-child(4)",
+      "targets": [
+        ["css=.new-game-control-group:nth-child(4)", "css:finder"],
+        ["xpath=//form[@id='new-game-form']/fieldset/div[3]", "xpath:idRelative"],
+        ["xpath=//fieldset/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64992ed7-8504-4728-839b-7af4107f79b1",
+      "comment": "",
+      "command": "click",
+      "target": "name=gtest",
+      "targets": [
+        ["name=gtest", "name"],
+        ["css=.new-game-control-group:nth-child(4) > input", "css:finder"],
+        ["xpath=//input[@name='gtest']", "xpath:attributes"],
+        ["xpath=//form[@id='new-game-form']/fieldset/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16df56bd-9a0c-4c2d-8ecb-c0350b236336",
+      "comment": "",
+      "command": "click",
+      "target": "name=gname",
+      "targets": [
+        ["name=gname", "name"],
+        ["css=.new-game-control-group:nth-child(2) > .new-game-control", "css:finder"],
+        ["xpath=//input[@name='gname']", "xpath:attributes"],
+        ["xpath=//form[@id='new-game-form']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03950cde-bbd3-4e88-b3b1-d011c2e88fe3",
+      "comment": "",
+      "command": "type",
+      "target": "name=gname",
+      "targets": [
+        ["name=gname", "name"],
+        ["css=.new-game-control-group:nth-child(2) > .new-game-control", "css:finder"],
+        ["xpath=//input[@name='gname']", "xpath:attributes"],
+        ["xpath=//form[@id='new-game-form']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "789789"
+    }, {
+      "id": "6077bddd-270c-4ea9-b29a-ac9cb4252f78",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-new-game",
+      "targets": [
+        ["id=btn-new-game", "id"],
+        ["css=#btn-new-game", "css:finder"],
+        ["xpath=//input[@id='btn-new-game']", "xpath:attributes"],
+        ["xpath=//form[@id='new-game-form']/fieldset/div[8]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f13d07a-d84f-46a0-80cc-90a241b13543",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=789789 (Тестовая)",
+      "targets": [
+        ["linkText=789789 (Тестовая)", "linkText"],
+        ["css=.idx-game-row:nth-child(3) .idx-game-link", "css:finder"],
+        ["xpath=//a[contains(text(),'789789 (Тестовая)')]", "xpath:link"],
+        ["xpath=//table[@id='gameList']/tbody/tr[3]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'game.html?gameId=test')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'789789 (Тестовая)')]", "xpath:innerText"]
+      ],
+      "value": "789789 (Тестовая)"
+    }]
+  }, {
+    "id": "f3f731f4-b260-4d0d-8749-4c25aa92be0c",
+    "name": "Join to existing game",
+    "commands": [{
+      "id": "ce4064e1-d50e-459f-ba03-277f1ba3db02",
+      "comment": "",
+      "command": "open",
+      "target": "http://104.40.150.146/content/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dbc8458f-c2fe-4c95-998b-8ff2fd343042",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1905x2140",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c3cf6d8-7d57-4dc8-bdd8-996eda26172b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=789789",
+      "targets": [
+        ["linkText=789789", "linkText"],
+        ["css=.idx-game-link", "css:finder"],
+        ["xpath=//a[contains(text(),'789789')]", "xpath:link"],
+        ["xpath=//table[@id='gameList']/tbody/tr[3]/td/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'game.html?gameId=8d2906d4ff244bc9aa022d752d3297eb')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'789789')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2076ed8-6359-4cbe-88c3-d17707004ffd",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnConnectPolice",
+      "targets": [
+        ["id=btnConnectPolice", "id"],
+        ["css=#btnConnectPolice", "css:finder"],
+        ["xpath=//button[@id='btnConnectPolice']", "xpath:attributes"],
+        ["xpath=//div[@id='controls']/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"],
+        ["xpath=//button[contains(.,'Подключиться к полиции')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef6de8a8-c20f-48dd-a4a3-352373883ea5",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//div[@id='team1users']/div",
+      "targets": [
+        ["id=player93b604b63057416784d83c8f1baff136", "id"],
+        ["css=#player93b604b63057416784d83c8f1baff136", "css:finder"],
+        ["xpath=//div[@id='player93b604b63057416784d83c8f1baff136']", "xpath:attributes"],
+        ["xpath=//div[@id='team1users']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div", "xpath:position"]
+      ],
+      "value": "Test250 [0;0;0]"
+    }]
+  }],
+  "suites": [{
+    "id": "48d9e286-982a-4455-9e79-77d200aecfc8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6c0d54ca-e36d-4140-bf49-2cd3106655c2"]
+  }],
+  "urls": ["http://104.40.150.146/login", "http://104.40.150.146/maps", "http://104.40.150.146/content", "http://104.40.150.146/login?nextPath=%2F"],
+  "plugins": []
+}
